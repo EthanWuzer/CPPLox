@@ -1,0 +1,9 @@
+// tricky!
+while (true) print "stuff";
+    continue;
+print "Does this ever appear?";
+while (true)
+{
+    continue 1;
+    continue
+}

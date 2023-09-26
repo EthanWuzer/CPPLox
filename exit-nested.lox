@@ -1,0 +1,14 @@
+print "Better watch out";
+{
+    print "Better not pout";
+    {
+        print "Better not cry";
+        {
+            print "Telling you why";
+            exit;
+        }
+        print "Santa Claus";
+    }
+    print "is coming";
+}
+print "to town";

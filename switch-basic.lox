@@ -1,0 +1,8 @@
+switch (3) { }
+switch (3) { default: print "this"; }
+switch (3) { case 3: print "that"; }
+switch (3) { case 1: print "that"; case 3: print "those"; }
+switch (3) { case 1: print "that"; case 3: print "them"; default: print "nothing"; }
+switch (1 == 2) { case 1 == 1: print "yes"; case 2 == 1: print "no"; }
+switch (1 == 1) { case "hello": print "nope!"; case 1 == 1: print "yes"; case 2 == 1: print "no"; }
+switch ("two") { case "zero": print 0; case "one": print 1; case "two": print 2; default: 15; }

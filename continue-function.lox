@@ -1,0 +1,25 @@
+fun countUpToContinue(limit)
+{
+    for (var i = 0; i < limit * 3; i = i + 1)
+    {
+        print i;
+        if (i < limit)
+            continue;
+        print "What?!"
+    }
+    print "Done";
+}
+
+fun countUpToBreak(limit)
+{
+    for (var i = 0; i < limit * 3; i = i + 1)
+    {
+        print i;
+        if (i < limit)
+            break;
+    }
+    print "Done";
+}
+
+countUpToContinue(3);
+countUpToBreak(3);

@@ -1,0 +1,13 @@
+[line 1] Error at '5': Expect '(' after 'switch'.
+[line 2] Error at ';': Expect ')' after switch target.
+[line 3] Error at ';': Expect '{' after switch and target.
+[line 5] Error at 'print': Expect ':' after 'default'.
+[line 6] Error at '}': Expect expression.
+[line 9] Error at 'default': Only 1 default branch allowed.
+[line 12] Error at 'print': Expect expression.
+[line 13] Error at '}': Expect expression.
+[line 15] Error at 'print': Expect ':' after case expression.
+[line 16] Error at '}': Expect expression.
+[line 20] Error at 'case': 'default' must be the last branch.
+[line 23] Error at 'print': Every branch of switch must begin with 'case' or 'default'.
+[line 26] Error at end: Expect '}' after all cases.

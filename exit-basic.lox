@@ -1,0 +1,2 @@
+exit;
+print "This had better not show up!";

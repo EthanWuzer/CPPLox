@@ -1,0 +1,11 @@
+var a = 5;
+switch (a)
+{
+    case 1: print "uno";
+    case 2 + 3:
+    {
+        print "dos";
+        print "tres";
+    }
+    default: print "ninguno";
+}

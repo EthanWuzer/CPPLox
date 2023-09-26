@@ -1,0 +1,11 @@
+var i = 0;
+while (i < 10)
+{
+    for (; i != 15; i = i + 1)
+        if (i == 2 or i == 7 or i == 12)
+            continue;
+        else
+            print i;
+    i = i + 3;
+}
+print "Done";

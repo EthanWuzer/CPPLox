@@ -1,0 +1,26 @@
+// optional because we don't have functions in Chapter 9
+
+fun countUpToBreak(limit)
+{
+    for (var i = 0; i < limit * 3; i = i + 1)
+    {
+        print i;
+        if (i == limit)
+            break;
+    }
+    print "Done";
+}
+
+fun countUpToReturn(limit)
+{
+    for (var i = 0; i < limit * 3; i = i + 1)
+    {
+        print i;
+        if (i == limit)
+            return;
+    }
+    print "Done";
+}
+
+countUpToBreak(3);
+countUpToReturn(3);

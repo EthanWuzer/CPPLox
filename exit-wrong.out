@@ -1,0 +1,4 @@
+[line 1] Error at '5': Expect ';' after 'exit'.
+[line 2] Error at 'false': Expect ';' after 'exit'.
+[line 3] Error at '(': Expect ';' after 'exit'.
+[line 5] Error at end: Expect ';' after 'exit'.

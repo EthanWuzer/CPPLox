@@ -1,0 +1,4 @@
+exit 5;
+exit false;
+exit(0);
+exit

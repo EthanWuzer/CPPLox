@@ -1,0 +1,154 @@
+{
+  "tests": [
+    {
+      "name": "Challenge 8.1 &#45; REPL stmt or expr",
+      "setup": "make challenge081",
+      "run": "./mylox",
+      "input": "2 + 1\r\nvar x = 3;\r\nx + 2\r\nx = \"hello\"\r\nx == \"bye\"\r\nprint \"stuff\";\r\n{ var x = \"what?\"; print x; } print x;\r\nvar x = true;\r\nx == false\r\nx == \"stuff\"\r\n",
+      "output": "3\r\n5\r\nhello\r\nfalse\r\nstuff\r\nwhat?\r\nhello\r\nfalse\r\nfalse\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Challenge 8.O - exit (basic)",
+      "setup": "make challenge08O",
+      "run": "./mylox exit-basic.lox",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Challenge 8.O - exit (nested)",
+      "setup": "make challenge08O",
+      "run": "./mylox exit-nested.lox",
+      "input": "",
+      "output": "Better watch out\r\nBetter not pout\r\nBetter not cry\r\nTelling you why\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Challenge 9.3 - break (basic)",
+      "setup": "make challenge093",
+      "run": "./mylox break-basic.lox",
+      "input": "",
+      "output": "Does this ever appear?\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Challenge 9.3 - break (if)",
+      "setup": "make challenge093",
+      "run": "./mylox break-if.lox",
+      "input": "",
+      "output": "0\r\n1\r\nDone\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Challenge 9.3 - break (nested)",
+      "setup": "make challenge093",
+      "run": "./mylox break-nested.lox",
+      "input": "",
+      "output": "0\r\n1\r\n8\r\n9\r\n10\r\n11\r\nDone\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Challenge 9.3 - break (wrong)",
+      "setup": "make challenge093",
+      "run": "./mylox break-wrong.lox",
+      "input": "",
+      "output": "[line 3] Error at 'break': 'break' is only allowed in a loop.\r\n[line 7] Error at '1': Expect ';' after 'break'.\r\n[line 9] Error at '}': Expect ';' after 'break'.\r\n[line 10] Error at end: Expect '}' after block.",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Challenge 8.O - exit (wrong)",
+      "setup": "make challenge08O",
+      "run": "./mylox exit-wrong.lox",
+      "input": "",
+      "output": "[line 1] Error at '5': Expect ';' after 'exit'.\r\n[line 2] Error at 'false': Expect ';' after 'exit'.\r\n[line 3] Error at '(': Expect ';' after 'exit'.\r\n[line 5] Error at end: Expect ';' after 'exit'.\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Challenge 9.3 - continue (basic)",
+      "setup": "make challenge093",
+      "run": "./mylox continue-basic.lox",
+      "input": "",
+      "output": "Done\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Challenge 9.3 - continue (if)",
+      "setup": "make challenge093",
+      "run": "./mylox continue-if.lox",
+      "input": "",
+      "output": "0\r\n1\r\n3\r\n4\r\nDone\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Challenge 9.3 - continue (nested)",
+      "setup": "make challenge093",
+      "run": "./mylox continue-nested.lox",
+      "input": "",
+      "output": "0\r\n1\r\n3\r\n4\r\n5\r\n6\r\n8\r\n9\r\n10\r\n11\r\n13\r\n14\r\nDone\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Challenge 9.3 - continue (wrong)",
+      "setup": "make challenge093",
+      "run": "./mylox continue-wrong.lox",
+      "input": "",
+      "output": "[line 3] Error at 'continue': 'continue' is only allowed in a loop.\r\n[line 7] Error at '1': Expect ';' after 'continue'.\r\n[line 9] Error at '}': Expect ';' after 'continue'.\r\n[line 10] Error at end: Expect '}' after block.\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Challenge 9.O - switch (basic)",
+      "setup": "make challenge09O",
+      "run": "./mylox switch-basic.lox",
+      "input": "",
+      "output": "this\r\nthat\r\nthose\r\nthem\r\nno\r\nyes\r\n2\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Challenge 9.O - switch (blocks)",
+      "setup": "make challenge09O",
+      "run": "./mylox switch-blocks.lox",
+      "input": "",
+      "output": "dos\r\ntres\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Challenge 9.O - switch (wrong)",
+      "setup": "make challenge09O",
+      "run": "./mylox switch-wrong.lox",
+      "input": "",
+      "output": "[line 1] Error at '5': Expect '(' after 'switch'.\r\n[line 2] Error at ';': Expect ')' after switch target.\r\n[line 3] Error at ';': Expect '{' after switch and target.\r\n[line 5] Error at 'print': Expect ':' after 'default'.\r\n[line 6] Error at '}': Expect expression.\r\n[line 9] Error at 'default': Only 1 default branch allowed.\r\n[line 12] Error at 'print': Expect expression.\r\n[line 13] Error at '}': Expect expression.\r\n[line 15] Error at 'print': Expect ':' after case expression.\r\n[line 16] Error at '}': Expect expression.\r\n[line 20] Error at 'case': 'default' must be the last branch.\r\n[line 23] Error at 'print': Every branch of switch must begin with 'case' or 'default'.\r\n[line 26] Error at end: Expect '}' after all cases.\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    }
+  ]
+}

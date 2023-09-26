@@ -1,0 +1,10 @@
+1 + 2
+var x = 3;
+x + 2
+x = "hello"
+x == "bye"
+print "stuff";
+{ var x = "what?"; print x; } print x;
+var x = true;
+x == false
+x == "stuff"

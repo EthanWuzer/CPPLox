@@ -1,0 +1,12 @@
+// exit from function - optional because we didn't have functions in Chapter 8
+
+fun doStuff(num)
+{
+    if (num == 0)
+        exit;
+    else
+        print num;
+    doStuff(num - 1);
+}
+
+doStuff(3);

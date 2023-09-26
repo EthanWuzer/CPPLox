@@ -1,0 +1,4 @@
+[line 3] Error at 'break': 'break' is only allowed in a loop.
+[line 7] Error at '1': Expect ';' after 'break'.
+[line 9] Error at '}': Expect ';' after 'break'.
+[line 10] Error at end: Expect '}' after block.

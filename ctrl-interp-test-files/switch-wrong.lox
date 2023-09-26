@@ -1,0 +1,25 @@
+switch 5;
+switch (5;
+switch (5);
+switch (5) {
+    default print "hello";
+}
+switch (5) {
+    default: print "hello";
+    default: "oops";
+}
+switch (5) {
+    case print "hello";
+}
+switch (5) {
+    case 5 print "hello";
+}
+switch (5) {
+    case 5: print "hello";
+    default: print "oops";
+    case 5: print "hello";
+}
+switch (5) {
+    print "hello";
+}
+switch (5) {

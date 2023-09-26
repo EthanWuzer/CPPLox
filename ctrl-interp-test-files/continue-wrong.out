@@ -1,0 +1,4 @@
+[line 3] Error at 'continue': 'continue' is only allowed in a loop.
+[line 7] Error at '1': Expect ';' after 'continue'.
+[line 9] Error at '}': Expect ';' after 'continue'.
+[line 10] Error at end: Expect '}' after block.
